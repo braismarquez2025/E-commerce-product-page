@@ -2,17 +2,6 @@
 
 Esta es una solución al [desafío de e-commerce product page en Frontend Mentor](https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6). Los desafíos de Frontend Mentor ayudan a mejorar tus habilidades de programación creando proyectos realistas.
 
-## 📁 Tabla de contenido
-
-- [Descripción general](#descripcion-general)
-  - [Captura de pantalla](#captura-de-pantalla)
-  - [Links](#links)
-- [Mi proceso](#mi-proceso)
-  - [Llevado a cabo con](#llevado-a-cabo-con)
-  - [Lo que aprendí](#lo-que-aprendi)
-- [Autor](#autor)
-- [Agradecimientos](#agradecimientos)
-
 ## 🔎 Descripción general
 
 ### 📷 Captura de pantalla
