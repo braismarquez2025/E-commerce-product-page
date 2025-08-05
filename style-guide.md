@@ -13,6 +13,7 @@ The designs were created to the following widths:
 
 ### Primary
 
+<<<<<<< HEAD
 - Orange: hsl(26, 100%, 55%)
 - Pale orange: hsl(25, 100%, 94%)
 
@@ -24,16 +25,34 @@ The designs were created to the following widths:
 - Light grayish blue: hsl(223, 64%, 98%)
 - White: hsl(0, 0%, 100%)
 - Black (with 75% opacity for lightbox background): hsl(0, 0%, 0%)
+=======
+- Orange 500: hsl(25, 97%, 53%)
+
+### Neutral
+
+- White: hsl(0, 100%, 100%)
+- Grey 500: hsl(217, 12%, 63%)
+- Grey 900: hsl(213, 19%, 18%)
+- Grey 950: hsl(216, 12%, 8%)
+>>>>>>> 1a0ea39 (first commit)
 
 ## Typography
 
 ### Body Copy
 
+<<<<<<< HEAD
 - Font size (paragraph): 16px
 
 ### Font
 
 - Family: [Kumbh Sans](https://fonts.google.com/specimen/Kumbh+Sans)
+=======
+- Font size (paragraph): 15px
+
+### Font
+
+- Family: [Overpass](https://fonts.google.com/specimen/Overpass)
+>>>>>>> 1a0ea39 (first commit)
 - Weights: 400, 700
 
 > 💎 [Upgrade to Pro](https://www.frontendmentor.io/pro?ref=style-guide) for design file access to see all design details and get hands-on experience using a professional workflow with tools like Figma.

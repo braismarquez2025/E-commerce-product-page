@@ -1,17 +1,30 @@
+<<<<<<< HEAD
 .text-preset-1 {
   font-size: 44px;
   line-height: 48px;
+=======
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+.text-preset-1 {
+  font-size: 28px;
+  line-height: 35px;
+>>>>>>> 1a0ea39 (first commit)
   letter-spacing: 0px;
   font-weight: 700;
 }
 
 .text-preset-2 {
+<<<<<<< HEAD
   font-size: 28px;
   line-height: 32px;
+=======
+  font-size: 24px;
+  line-height: 30px;
+>>>>>>> 1a0ea39 (first commit)
   letter-spacing: 0px;
   font-weight: 700;
 }
 
+<<<<<<< HEAD
 .text-preset-3-bold {
   font-size: 16px;
   line-height: 26px;
@@ -36,10 +49,23 @@
 .text-preset-5 {
   font-size: 13px;
   line-height: 16px;
+=======
+.text-preset-3 {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  font-weight: 700;
+}
+
+.text-preset-4-bold {
+  font-size: 15px;
+  line-height: 19px;
+>>>>>>> 1a0ea39 (first commit)
   letter-spacing: 2px;
   font-weight: 700;
 }
 
+<<<<<<< HEAD
 .text-preset-6 {
   font-size: 12px;
   line-height: 15px;
@@ -173,10 +199,66 @@
 .cart_producto {
   display: flex;
   align-items: center;
+=======
+.text-preset-4-regular {
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  font-weight: 400;
+}
+
+.text-preset-5-bold {
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 1.87px;
+  font-weight: 700;
+}
+
+.text-preset-5-semibold {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.17px;
+  font-weight: 600;
+}
+
+.text-preset-5-regular {
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0px;
+  font-weight: 400;
+}
+
+.btn {
+  background-color: #FC7614;
+  color: #131518;
+  padding: 15px;
+  border-radius: 30px;
+  text-align: center;
+}
+.btn:hover {
+  background-color: white;
+}
+
+.container {
+  background: linear-gradient(90deg, rgb(35, 42, 52) 0%, rgb(24, 30, 39) 50%);
+  padding: 28px 24px;
+  border-radius: 15px;
+}
+.container .star img {
+  background-color: #262E38;
+  border-radius: 20px;
+  padding: 16px;
+  width: 14px;
+}
+.container .content {
+  display: flex;
+  flex-direction: column;
+>>>>>>> 1a0ea39 (first commit)
   gap: 16px;
   margin-bottom: 24px;
   margin-top: 24px;
 }
+<<<<<<< HEAD
 .cart_producto-img {
   width: 50px;
   height: 50px;
@@ -698,4 +780,84 @@ body {
   body {
     margin: 28px 165px 128px 165px;
   }
+=======
+@media (min-width: 768px) {
+  .container .content {
+    margin-bottom: 32px;
+    margin-top: 32px;
+  }
+}
+.container .content_title {
+  color: white;
+}
+@media (min-width: 768px) {
+  .container .content_title {
+    font-size: 28px;
+    line-height: 35px;
+    letter-spacing: 0px;
+    font-weight: 700;
+  }
+}
+.container .content_subtitle {
+  color: #969FAD;
+}
+@media (min-width: 768px) {
+  .container .content_subtitle {
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    font-weight: 400;
+  }
+}
+.container .content_numbers {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+@media (min-width: 768px) {
+  .container .content_numbers {
+    gap: 20px;
+  }
+}
+.container .content_numbers-btn {
+  color: #969FAD;
+  padding: 8px 16px;
+  background-color: #262E38;
+  border-radius: 50%;
+}
+@media (min-width: 768px) {
+  .container .content_numbers-btn {
+    padding: 16px 24px;
+  }
+}
+.container .content_numbers-btn:hover {
+  background-color: white;
+  color: #262E38;
+}
+
+body {
+  font-family: "Overpass", sans-serif;
+  margin: 30% 24px;
+  background-color: #131518;
+}
+@media (min-width: 768px) {
+  body {
+    margin: 30% 180px;
+  }
+}
+@media (min-width: 1024px) {
+  body {
+    margin: 30% 310px;
+  }
+}
+@media (min-width: 1440px) {
+  body {
+    margin: 30% 514px;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+>>>>>>> 1a0ea39 (first commit)
 }/*# sourceMappingURL=style.css.map */

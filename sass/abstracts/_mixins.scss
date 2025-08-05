@@ -22,4 +22,20 @@
       @content;
     }
   }
+<<<<<<< HEAD
+=======
+}
+
+
+@mixin button() {
+  background-color: $orange-500;
+  color: $grey-950;
+  padding: 15px;
+  border-radius: 30px;
+  text-align: center;
+
+  &:hover {
+    background-color: white;    
+  }
+>>>>>>> 1a0ea39 (first commit)
 }
