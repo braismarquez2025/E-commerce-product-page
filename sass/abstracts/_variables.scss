@@ -1,0 +1,65 @@
+$bp-tablet: 768px;
+$bp-tablet-horizontal: 1024px;
+$bp-desktop: 1220px;
+$bp-desktop-xl: 1440px;
+
+
+$grey-950: #1D2026;
+$grey-500: #69707D;
+$grey-300: #C3CAD9;
+$grey-100: #E4E9F2;
+$grey-50: #F6F8FD;
+
+$orange-500: #FF7E1B;
+$orange-300: #FFAB6A;
+
+$font: "Kumbh Sans", sans-serif;
+
+.text-preset-1 {
+    font-size: 44px;
+    line-height: 48px;
+    letter-spacing: 0px;
+    font-weight: 700;
+}
+
+.text-preset-2 {
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: 0px;
+    font-weight: 700;
+}
+
+.text-preset-3-bold {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    font-weight: 700;
+}
+
+.text-preset-3-regular {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    font-weight: 400;
+}
+
+.text-preset-4 {
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    font-weight: 400;
+}
+
+.text-preset-5 {
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.text-preset-6 { 
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 1.85px;
+    font-weight: 700;
+}

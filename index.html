@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css"/>
+    
+  <title>Frontend Mentor | E-commerce product page</title>
+
+</head>
+<body>
+  <div class="overlay"></div>
+  <div class="galleryOverlay"></div>
+    <header class="header">
+      <div class="header-logo">
+        <img src="./images/icon-menu.svg" alt="menu" class="header_menu">
+        <img src="./images/logo.svg" alt="logo" class="header_logo">
+
+        <div class="header_categories">
+          <li><a href="" class="text-preset-4">Collections</a></li>
+          <li><a href="" class="text-preset-4">Men</a></li>
+          <li><a href="" class="text-preset-4">Women</a></li> 
+          <li><a href="" class="text-preset-4">About</a></li>
+          <li><a href="" class="text-preset-4">Contact</a></li>
+        </div>
+      </div>
+
+      <div class="header_container">
+        <img src="./images/icon-cart.svg" alt="carro" class="header_carro"><div class="noti hidden"></div>
+        <img src="./images/image-avatar.png" alt="perfil" class="header_perfil">
+      </div>
+    </header>
+
+    <hr class="hr">
+    <div class="container">
+    <div>
+      <main class="main">
+        <section class="main_producto">
+          <img src="./images/image-product-1.jpg" alt="producto" class="main_producto-img">
+          <div class="main_producto-carrusell">
+            <img src="./images/image-product-1-thumbnail.jpg" alt="producto-1" data-image="1" class="main_producto-carrusell-img">
+            <img src="./images/image-product-2-thumbnail.jpg" alt="producto-2" data-image="2" class="main_producto-carrusell-img">
+            <img src="./images/image-product-3-thumbnail.jpg" alt="producto-3" data-image="3" class="main_producto-carrusell-img">
+            <img src="./images/image-product-4-thumbnail.jpg" alt="producto-4" data-image="4" class="main_producto-carrusell-img">
+          </div>
+          <div class="flecha-izq">
+            <svg id="left" width="12" height="18" xmlns="http://www.w3.org/2000/svg">
+              <path d="M11 1 3 9l8 8" stroke="#1D2026" stroke-width="3" fill="none" fill-rule="evenodd"/>
+            </svg>
+          </div>
+          <div class="flecha-der">
+            <svg id="right" xmlns="http://www.w3.org/2000/svg" width="12" height="18" viewBox="0 0 12 18" fill="currentColor">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M1.619 0.879a1.5 1.5 0 0 0 0 2.121L8.12 9l-6.5 6.001a1.5 1.5 0 1 0 2.06 2.182l7.5-6.923a1.5 1.5 0 0 0 0-2.182L3.68 0.697a1.5 1.5 0 0 0-2.06.182Z"/>
+            </svg>
+          </div>
+        </section>
+    </div>
+    <div class="container_info">
+      <section class="main_info">
+        <article class="main_info-content">
+          <h3 class="main_info-subtitle text-preset-6">Sneaker Company</h3>
+          <h2 class="main_info-title text-preset-2">Fall Limited Edition Sneakers</h2>
+          <p class="main_info-description text-preset-4">These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+        </article>
+ 
+        <article class="main_info-price">
+          <div class="main_info-price-container">
+            <p class="main_info-price-number text-preset-2">$125.00</p>
+            <p class="main_info-price-descuento text-preset-3-bold">50%</p>
+          </div>
+          <p class="main_info-price-anterior text-preset-3-bold">$250.00</p>
+        </article>
+
+        <article class="main_info-container">
+          <div class="main_info-cantidad">
+            <img src="./images/icon-minus.svg" alt="menos" class="menos">
+            <p class="main_info-cantidad-number text-preset-3-bold">0</p>
+            <img src="./images/icon-plus.svg" alt="mas" class="mas">
+          </div>
+
+          <div class="main_info-carro">
+            <img src="./images/Shape.svg" alt="carro" class="carro">
+            <p class="main_info-carro-add text-preset-3-bold">Add to cart</p>
+          </div>
+        </article>
+      </section>
+  </div>
+</div>
+
+
+  </main>
+
+  <aside class="menu">
+    <img src="./images/icon-close.svg" class="menu_cerrar">
+    <div class="menu_secciones">
+      <p>Collections</p>
+      <p>Men</p>
+      <p>Women</p>
+      <p>About</p>
+      <p>Contact</p>
+    </div>
+  </aside>
+
+  <div class="vista_previa hidden">
+    <div class="close">
+      <svg width="14" height="15" xmlns="http://www.w3.org/2000/svg" class="cerrar_producto">
+        <path d="m11.596.782 2.122 2.122L9.12 7.499l4.597 4.597-2.122 2.122L7 9.62l-4.595 4.597-2.122-2.122L4.878 7.5.282 2.904 2.404.782l4.595 4.596L11.596.782Z" fill="currentColor" fill-rule="evenodd"/>
+      </svg>
+    </div>
+    <img src="./images/image-product-1.jpg" class="vista_previa-img">
+    <div class="vista_previa-carrusell">
+      <img src="./images/image-product-1-thumbnail.jpg" alt="producto-1" data-image="1" class="vista_previa-carrusell-img">
+      <img src="./images/image-product-2-thumbnail.jpg" alt="producto-2" data-image="2" class="vista_previa-carrusell-img">
+      <img src="./images/image-product-3-thumbnail.jpg" alt="producto-3" data-image="3" class="vista_previa-carrusell-img">
+      <img src="./images/image-product-4-thumbnail.jpg" alt="producto-4" data-image="4" class="vista_previa-carrusell-img">
+    </div>
+    <div class="left">
+      <svg id="arrow-left" class="icon" xmlns="http://www.w3.org/2000/svg" width="12" height="18" viewBox="0 0 12 18" fill="currentColor">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M10.381 17.121a1.5 1.5 0 0 0 0-2.121L3.88 9l6.5-6.001A1.5 1.5 0 1 0 8.32.817l-7.5 6.923a1.5 1.5 0 0 0 0 2.182l7.5 6.923a1.5 1.5 0 0 0 2.06-.182Z"/>
+      </svg>
+    </div>
+    <div class="right">
+      <svg id="arrow-right" xmlns="http://www.w3.org/2000/svg" width="12" height="18" viewBox="0 0 12 18" fill="currentColor">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M1.619 0.879a1.5 1.5 0 0 0 0 2.121L8.12 9l-6.5 6.001a1.5 1.5 0 1 0 2.06 2.182l7.5-6.923a1.5 1.5 0 0 0 0-2.182L3.68 0.697a1.5 1.5 0 0 0-2.06.182Z"/>
+      </svg>
+    </div>
+
+  </div>
+
+  <article class="cart hidden">
+    <p class="cart_title text-preset-3-bold">Cart</p>
+    <hr>
+    <p class="cart_aviso text-preset-3-bold">Your cart is empty.</p>
+    <div class="checkout hidden">
+      <div class="cart_producto">
+        <div>
+          <img src="./images/image-product-1-thumbnail.jpg" alt="image-product-1" class="cart_producto-img">
+        </div>
+        <div>
+          <div>
+            <p class="cart_producto-nombre text-preset-3-regular">Fall Limited Edition Sneakers</p>
+            <div class="cart_producto-price">
+              <p class="cart_producto-cantidad">$125.00 x <span class="cart_cantidad"></span></p>
+              <p class="cart_producto-total text-preset-3-bold">$375.00</p>
+              <img src="./images/icon-delete.svg" alt="eliminar" class="cart_producto-eliminar">
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="cart_producto-button text-preset-3-bold">Checkout</button>
+    </div>
+  </article>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

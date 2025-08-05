@@ -1,0 +1,133 @@
+.vista_previa {
+    display: none;
+
+    @include breakpoint(desktop) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        z-index: 999;
+        position: absolute;
+        top: 90px;
+        right: 445px;
+
+
+        &-img {
+            width: 550px;
+            height: 550px;
+            border-radius: 15px;
+            margin-top: 24px;
+            margin-bottom: 40px;
+        }
+
+        &-carrusell {
+            display: flex;
+            gap: 32px;
+
+            &-img {
+                width: 88px;
+                height: 88px;
+                border-radius: 10px;
+                cursor: pointer;
+                border: 2px solid transparent;
+                transition: border 0.3s ease;
+                object-fit: cover;
+                
+
+                &:hover {
+                    border: 2px solid $orange-500;
+                    opacity: 50%;
+                }
+            }
+        }    
+    }
+}
+
+.cerrar_producto {
+    position: relative;
+    right: -260px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+
+.galleryOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 998;
+    display: none; 
+}
+
+.galleryOverlay.activo {
+    display: block;
+}
+
+.right {
+    width: 56px;
+    height: 56px;
+    background-color: white;
+    position: absolute;
+    right: -25px;
+    top: 260px;
+    border-radius: 50%;
+    cursor: pointer;
+
+    #arrow-right {
+        width: 18px;
+        height: 18px;
+        position: relative;
+        top: 18px;
+        left: 21px;
+    }
+
+}
+
+.left {
+    width: 56px;
+    height: 56px;
+    background-color: white;
+    position: absolute;
+    left: -25px;
+    top: 260px;
+    border-radius: 50%;
+    cursor: pointer;
+
+    #arrow-left {
+        width: 18px;
+        height: 18px;
+        position: relative;
+        top: 19px;
+        left: 18px;
+    }
+
+    img {
+        position: relative;
+        top: 18px;
+        left: 20px;
+    }
+
+}
+
+
+.right:hover svg {
+    color: $orange-500;
+}
+
+.left:hover svg {
+    color: $orange-500; 
+}
+
+.cerrar_producto {
+    color: white;
+}
+
+.close:hover svg {
+    color: $orange-500;
+}

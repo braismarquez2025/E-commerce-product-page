@@ -1,0 +1,19 @@
+html * {
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: $font;
+    margin: 20px 24px;
+    z-index: 0;
+
+    @include breakpoint(tablet) {
+        margin: 28px 80px;
+    }
+
+    @include breakpoint(desktop) {
+        margin: 28px 165px 128px 165px;
+    }
+    
+} 
