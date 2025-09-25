@@ -10,8 +10,8 @@ Diseño responsive para resolución mobile(375px), tablet(768px) y desktop(1440p
 
 
 ### 🔗 Links
-- [URL de la solución](https://www.frontendmentor.io/solutions/men-navegable-de-pgina-web-html-y-css-vUgVs_SLAZ)
-- [URL del sitio en vivo](https://braismarquez2025.github.io/social-links-profile-main/)
+- [URL de la solución]([https://www.frontendmentor.io/solutions/men-navegable-de-pgina-web-html-y-css-vUgVs_SLAZ](https://www.frontendmentor.io/solutions/solution-e-commerce-product-page-_Ag3hOWf_A))
+- [URL del sitio en vivo]([https://braismarquez2025.github.io/social-links-profile-main/](https://braismarquez2025.github.io/E-commerce-product-page/))
 
 
 ## 👤 Mi proceso
