@@ -21,7 +21,6 @@ Proyecto centrado en la parte de frontend, no he querido hacerlo con django ya q
 - HTML
 - SCSS
 - JavaScript
-- GitHub Pages
 
 ### 💡 Lo que aprendí
 El desarrollo de este proyecto me ha servido para aprender a hacer una galería estática (al clicar sobre la imagen del producto en vista desktop) y mejorar mis conocimientos frontend, ya que hay partes del proyecto que las desarrollo con mucha fluidez, como crear el index.html o el menú lateral, y otras donde tengo que informarme un poco a la hora de hacerlas, pongo el ejemplo de la galería estática.
@@ -30,3 +29,4 @@ El desarrollo de este proyecto me ha servido para aprender a hacer una galería 
 - 💼 GitHub - https://github.com/braismarquez2025
 - ✉️ Gmail - braismarquez2003@gmail.com
 - 👤 Usuario de Frontend - [@braismarquez2025](https://www.frontendmentor.io/profile/braismarquez2025)
+- 🔗 LinkedIn - [Brais Márquez](https://www.linkedin.com/in/brais-m%C3%A1rquez-b133b7365/)

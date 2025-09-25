@@ -4,7 +4,6 @@ $bp-desktop: 1220px;
 $bp-desktop-xl: 1440px;
 
 
-<<<<<<< HEAD
 $grey-950: #1D2026;
 $grey-500: #69707D;
 $grey-300: #C3CAD9;
@@ -19,46 +18,17 @@ $font: "Kumbh Sans", sans-serif;
 .text-preset-1 {
     font-size: 44px;
     line-height: 48px;
-=======
-
-$roboto-font: 'Roboto', sans-serif; 
-
-
-// Colors
-$grey-950: #131518;
-$grey-900: #262E38;
-$grey-500: #969FAD;
-
-$orange-500: #FC7614;
-
-$gradient: linear-gradient(90deg,rgba(35, 42, 52, 1) 0%, rgba(24, 30, 39, 1) 50%);
-
-//Fonts
-$font-primary: "Overpass", sans-serif;
-
-
-// Text-presets
-.text-preset-1 {
-    font-size: 28px;
-    line-height: 35px;
->>>>>>> 1a0ea39 (first commit)
     letter-spacing: 0px;
     font-weight: 700;
 }
 
 .text-preset-2 {
-<<<<<<< HEAD
     font-size: 28px;
     line-height: 32px;
-=======
-    font-size: 24px;
-    line-height: 30px;
->>>>>>> 1a0ea39 (first commit)
     letter-spacing: 0px;
     font-weight: 700;
 }
 
-<<<<<<< HEAD
 .text-preset-3-bold {
     font-size: 16px;
     line-height: 26px;
@@ -83,56 +53,13 @@ $font-primary: "Overpass", sans-serif;
 .text-preset-5 {
     font-size: 13px;
     line-height: 16px;
-=======
-.text-preset-3 {
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.2px;
-    font-weight: 700;
-}
-
-.text-preset-4-bold {
-    font-size: 15px;
-    line-height: 19px;
->>>>>>> 1a0ea39 (first commit)
     letter-spacing: 2px;
     font-weight: 700;
 }
 
-<<<<<<< HEAD
 .text-preset-6 { 
     font-size: 12px;
     line-height: 15px;
     letter-spacing: 1.85px;
     font-weight: 700;
 }
-=======
-
-.text-preset-4-regular {
-    font-size: 15px;
-    line-height: 24px;
-    letter-spacing: 0px;
-    font-weight: 400;
-}
-
-.text-preset-5-bold {
-    font-size: 14px;
-    line-height: 18px;
-    letter-spacing: 1.87px;
-    font-weight: 700;
-}
-
-.text-preset-5-semibold {
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.17px;
-    font-weight: 600;
-}
-
-.text-preset-5-regular {
-    font-size: 14px;
-    line-height: 22px;
-    letter-spacing: 0px;
-    font-weight: 400;
-}
->>>>>>> 1a0ea39 (first commit)
