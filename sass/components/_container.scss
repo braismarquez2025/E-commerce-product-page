@@ -1,0 +1,78 @@
+.container {
+    background: $gradient;
+    padding: 28px 24px;
+    border-radius: 15px;
+
+    .star {
+        img {
+            background-color: $grey-900;
+            border-radius: 20px;
+            padding: 16px;
+            width: 14px;
+        }
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        margin-bottom: 24px;
+        margin-top: 24px;
+
+        @include breakpoint(tablet) {
+            margin-bottom: 32px;
+            margin-top: 32px;
+        }
+
+        &_title{
+            color: white;
+            
+            @include breakpoint(tablet) {
+                font-size: 28px;
+                line-height: 35px;
+                letter-spacing: 0px;
+                font-weight: 700;
+            }
+        }
+
+        &_subtitle{
+            color: $grey-500;
+            
+            @include breakpoint(tablet) {
+                font-size: 15px;
+                line-height: 24px;
+                letter-spacing: 0px;
+                font-weight: 400;
+            }
+        }
+
+        &_numbers {
+            display: flex;
+            gap: 16px;
+            justify-content: center;
+
+            @include breakpoint(tablet) {
+                gap: 20px;
+            }
+
+            &-btn {
+                color: $grey-500;
+                padding: 8px 16px;
+                background-color: $grey-900;
+                border-radius: 50%;
+
+                @include breakpoint(tablet) {
+                    padding: 16px 24px;
+                }
+
+                &:hover {
+                    background-color: white;
+                    color: $grey-900; 
+                }
+
+
+            }
+        }
+        
+    }
+}
